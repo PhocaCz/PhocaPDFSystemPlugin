@@ -1,0 +1,1 @@
+Phoca PDF System Plugin is Joomla! CMS extension. Plugin which adds PDF button/icon into Joomla! article.
