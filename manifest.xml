@@ -1,0 +1,22 @@
+<updates>
+	<update>
+		<name><![CDATA[ Phoca PDF System Plugin ]]></name>
+		<description><![CDATA[ Phoca PDF System plugin is Joomla! plugin which tries to add an icon - link to PDF document into Joomla! article content. ]]></description>
+		<element>phocapdf</element>
+		<folder>system</folder>
+		<type>plugin</type>
+		<version>3.0.6</version>
+		<infourl title="Phoca PDF System Plugin 3.0.6">https://www.phoca.cz/</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/PhocaCz/PhocaPDFSystemPlugin/releases/download/3.0.6/plg_system_phocapdf_v3.0.6.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[ Phoca.cz ]]></maintainer>
+		<maintainerurl>https://www.phoca.cz/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="3.9"/>
+		<client>0</client>
+	</update>
+</updates>

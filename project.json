@@ -1,0 +1,20 @@
+{
+	"author": "Jan Pavelka (www.phoca.cz)",
+	"authorUrl": "https://www.phoca.cz",
+	"copyright": "Jan Pavelka",
+	"license": "GNU/GPL",
+	"projectName": "PhocaPDFSystemPlugin",
+	"extensionName": "Phoca PDF System Plugin",
+	"projectInitials" : "PDF",				  
+	"description": "Phoca PDF System plugin is Joomla! plugin which tries to add an icon - link to PDF document into Joomla! article content.",
+	"projectUrl": "https://www.phoca.cz/phocapdf-plugins",
+	"projectDocumentationUrl": "https://www.phoca.cz/documents/48-phoca-pdf-plugins/673-phoca-pdf-system-plugin",
+	"projectMainComponent": "Phoca PDF",
+	"projectMainComponentInfoUrl": "https://www.phoca.cz/project/phocapdf-joomla-pdf",
+	"projectDemo" : {
+		"Joomla! 3 Demo": "https://www.phoca.cz/joomla3demo/phoca-pdf-demo",
+		"Joomla! 2.5 Demo": "https://www.phoca.cz/joomlademo/phoca-pdf",
+		"Joomla! 1.5 Demo": "https://www.phoca.cz/demo/phocapdf-demo"
+	},
+	"projectColor": "#D50000"
+}

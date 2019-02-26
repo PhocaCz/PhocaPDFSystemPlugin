@@ -49,6 +49,8 @@ class plgSystemPhocaPDF extends JPlugin
 		
 		$id 		= $app->input->get('id', '', 'string');
 		$item 	= new StdClass();
+		
+		
 		if ((int)$id > 0) {
 			$db		= JFactory::getDBO();
 			$query 	= 'SELECT a.id, a.alias, a.attribs, a.catid, '
@@ -75,9 +77,9 @@ class plgSystemPhocaPDF extends JPlugin
 				}
 				
 				//$pattern = '/<ul class="dropdown-menu actions">(.*?)<\/ul>/s';
-				$pattern = '/<ul class="dropdown-menu">(.*?)<\/ul>/s';
+				$pattern = '/<ul class="dropdown-menu"(.*?)>(.*?)<\/ul>/s';
 				
-				$replacement = '<ul class="dropdown-menu actions">$1'.$phocaPDF.'</ul>';
+				$replacement = '<ul class="dropdown-menu actions">$2'.$phocaPDF.'</ul>';
 
 				$buffer2 = preg_replace($pattern, $replacement, $buffer);
 				JResponse::setBody($buffer2);
