@@ -56,7 +56,7 @@ Phoca PDF System plugin is Joomla! plugin which tries to add an icon - link to P
 
 ## Version
 
-3.0.6
+3.0.9
 
 
 
