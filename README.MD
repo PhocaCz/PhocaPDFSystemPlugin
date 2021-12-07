@@ -2,7 +2,7 @@
 
 
 
-![Phoca PDF System Plugin](https://github.com/PhocaCz/PhocaPDFSystemPlugin/blob/master/phocapdf.png)
+![Phoca PDF System Plugin](https://github.com/PhocaCz/PhocaPDFSystemPlugin/blob/master/phocapdf.png?raw=true)
 
 # Phoca PDF System Plugin
 
@@ -56,9 +56,13 @@ Phoca PDF System plugin is Joomla! plugin which tries to add an icon - link to P
 
 
 
-## Version
+## Version (Joomla! 3.x)
 
-3.0.10
+3.0.12
+
+## Version (Joomla! 4.x)
+
+4.0.0
 
 
 
