@@ -10,11 +10,12 @@
 use Joomla\CMS\Factory;
 use Joomla\CMS\Plugin\PluginHelper;
 use Joomla\Registry\Registry;
+use Joomla\CMS\Plugin\CMSPlugin;
 
 defined( '_JEXEC' ) or die( 'Restricted access' );
 jimport( 'joomla.plugin.plugin' );
 
-class plgSystemPhocaPDF extends JPlugin
+class plgSystemPhocaPDF extends CMSPlugin
 {
 
 	public function __construct(& $subject, $config) {
@@ -34,6 +35,7 @@ class plgSystemPhocaPDF extends JPlugin
 
 		$view = $app->input->get('view', '', 'string');
 		if ($view != 'article') { return true;}
+
 		/*$prm						= array();
 		$prm['display_article'] 	= $this->params->get('display_article', 1);
 		$prm['display_featured'] 	= $this->params->get('display_featured', 1);
@@ -85,7 +87,8 @@ class plgSystemPhocaPDF extends JPlugin
 
 				//$replacement = '<ul class="dropdown-menu actions">$2'.$phocaPDF.'</ul>';
 				// BOOTSTRAP
-				$pattern = '/<div class="com-content-article(.*?)>(.*?)<\/div>/s';
+				// Be aware - item_page added in Joomla 5
+				$pattern = '/<div class="com-content-article item-page(.*?)>(.*?)<\/div>/s';
 				$replacement = '<div class="com-content-article$1">'.$phocaPDF.'$2</div>';
 				$buffer2 = preg_replace($pattern, $replacement, $buffer);
 
